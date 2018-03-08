@@ -45,6 +45,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+//.
 public class AddPeopleActivity extends AppCompatActivity implements Const.Status{
     private SharedPreferences preferences;
     private SharedPreferences.Editor editor;
