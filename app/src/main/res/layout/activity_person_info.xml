@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:oachat="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:orientation="horizontal"
+        android:background="@drawable/person_info_bg1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="end">
+            <TextView
+                android:id="@+id/person_info_delete_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textColor="#c22"
+                android:textSize="15sp"
+                android:text="删除好友"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-45dp"
+        android:orientation="vertical">
+
+        <com.yytech.ochatclient.oaview.RoundImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/mine_avatar"
+            android:id="@+id/head"
+            />
+
+        <TextView
+            android:id="@+id/person_info_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="-浮生若梦°"
+            android:textColor="#000"
+            android:textSize="23sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/person_info_signature"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:gravity="center_vertical"
+                android:text="一本正经的胡说八道"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/person_info_5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/Personinfo_icon"
+                    android:layout_width="15dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/person_info_1" />
+
+                <TextView
+                    style="@style/personinfo_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="1040473977" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    style="@style/Personinfo_icon"
+                    android:layout_width="15dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/person_info_2" />
+
+                <TextView
+                    android:id="@+id/person_info_gender"
+                    style="@style/personinfo_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="男" />
+
+                <TextView
+                    android:id="@+id/person_info_age"
+                    style="@style/personinfo_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="20岁" />
+
+                <TextView
+                    style="@style/personinfo_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="天蝎座" />
+
+                <TextView
+                    android:id="@+id/person_info_address"
+                    style="@style/personinfo_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="浙江" />
+                <TextView
+                    android:id="@+id/person_info_tel"
+                    style="@style/personinfo_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="15868133375" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/person_info_rightimg"
+                        android:layout_width="17dp"
+                        android:layout_height="17dp"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/person_info_6" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/Personinfo_icon"
+                    android:layout_width="15dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/person_info_3" />
+
+                <TextView
+                    style="@style/personinfo_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="学生" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            style="@style/grey_dividing_line"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/person_info_4" />
+
+
+        <Button
+            android:id="@+id/person_info_send_msg_btn"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:textColor="#fff"
+            android:background="@drawable/button_shape"
+            android:text="发消息"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:id="@+id/person_info_add_friend"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:textColor="#fff"
+            android:background="@drawable/button_shape"
+            android:text="添加好友"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

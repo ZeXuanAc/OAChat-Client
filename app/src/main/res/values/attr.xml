@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="rightPadding" format="dimension"></attr>
+
+    <declare-styleable name="SlidingMenu">
+        <attr name="rightPadding"></attr>
+    </declare-styleable>
+    <declare-styleable name="GifView">
+        <attr name="auto_play" format="boolean">
+
+        </attr>
+    </declare-styleable>
+</resources>

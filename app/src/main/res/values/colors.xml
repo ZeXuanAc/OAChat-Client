@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="qq_bg">#1eb9f2</color>
+    <color name="button_bg">#09f</color>
+    <color name="unimportant">#c7c7c7</color>
+    <color name="qq_text_color">#52caf8</color>
+    <color name="text_color_press">#5ffcff</color>
+    <color name="main_menu_textclick_bg">#37bae9</color>
+    <color name="main_menu_normal">#0db8f6</color>
+    <color name="text_normal">#8a8a8a</color>
+    <color name="text_press">#1296db</color>
+</resources>
